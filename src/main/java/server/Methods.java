@@ -1,6 +1,7 @@
 package server;
 
 public class Methods {
+    //Edson Miguel Peralta Valdez
     private String operacion;
     private double num1;
     private double num2;
