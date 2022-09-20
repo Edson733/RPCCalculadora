@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 
 public class DaoCalculadora {
+    //Edson Miguel Peralta Valdez
     public boolean guardarOperaciones(String operacion, String num1, String num2, double resultado){
         boolean result = false;
         try(
