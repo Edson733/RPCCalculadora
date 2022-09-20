@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class RPCClient {
     static Scanner teclado = new Scanner(System.in);
     public static void main(String[] args) throws MalformedURLException, XmlRpcException {
+        //Edson Miguel Peralta Valdez
         XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
         config.setServerURL(new URL("http://localhost:1200"));
         XmlRpcClient client = new XmlRpcClient();
