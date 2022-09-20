@@ -6,3 +6,4 @@ create table operations(
     result double not null,
     created_at datetime not null default now()
 );
+//Edson Miguel Peralta Valdez
